@@ -30,7 +30,7 @@ You can learn more in the web site [Rick & Morty](https://rickandmortyapi.com/).
 
 ### Deployment 🚀
 
-The deployment will be done with [Vercel](https://vercel.com/xxareizaxx)
+Is deployed in [Vercel](https://api-rick-and-morty-inwpex0x5-xxareizaxx.vercel.app/)
 
 
 
