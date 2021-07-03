@@ -14,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Preview 📰
+
+![Preview](https://user-images.githubusercontent.com/61436653/124366318-84c6a680-dc14-11eb-8aed-6c714c99fed8.jpg)
+
 ## Features 📝
 
 - [x] Header with Responsive Design 
