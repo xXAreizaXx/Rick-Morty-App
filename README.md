@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 ## Features 📝
 
 - [x] Header with Responsive Design 
-- [] Put the cards in the container div
+- [ ] Put the cards in the container div
 
 ## Learn More 🤔
 
