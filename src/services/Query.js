@@ -1,5 +1,6 @@
 import { gql } from "apollo-boost";
 import { Query } from "react-apollo";
+import Cards from '../components/Cards/Cards'
 
 export const CharacterQuery = () => {
     return (
@@ -22,14 +23,12 @@ export const CharacterQuery = () => {
 
                 return data.characters.results.map((character) => {
                     return (
-                        <div key={character.id}>
-                            <p>{character.name}</p>
-                            <img
-                                className="Image"
-                                src={character.image}
-                                alt={`Imagen de ${character.name}`}
-                            />
-                        </div>
+                        <Cards
+                            key={character.id}
+                            id={character.id}
+                            name={character.name}
+                            image={character.image}
+                        />
                     );
                 });
             }}

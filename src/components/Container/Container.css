@@ -1,0 +1,56 @@
+.containerCards {
+    align-items: center;
+    border-radius: 10px;  
+    margin-top: 140px;  
+    width: 900px;
+}
+
+.containerCards > div {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 
+        20px 20px 60px #bebebe, 
+        -20px -20px 60px #ffffff;
+    display: grid;
+    grid-row-start: 2;
+    grid-template-columns: repeat(2, 1fr);;
+    grid-template-rows: repeat(10, 1fr);
+    justify-items: center;
+    padding: 30px;
+}
+
+@media (max-width: 990px) {
+    .containerCards {
+        margin-top: 220px;
+        width: 700px;
+    }
+
+    .containerCards > div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+}
+
+@media (max-width: 780px) {
+    .containerCards {
+        width: 500px;
+    }
+
+    .containerCards > div {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+}
+
+@media (max-width: 580px) {
+    .containerCards {
+        width: 340px;
+    }
+}
+
+@media (max-width: 380px) {
+    .containerCards {
+        margin-top: 530px;
+        width: 340px;
+    }
+}
