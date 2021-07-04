@@ -17,13 +17,15 @@
     #navBar {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        position: absolute;
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 430px) {
     #navBar {
         grid-template-columns: repeat(auto-fill, 380px);
         grid-template-rows: repeat(5, 100px);
+        position: absolute;
     }
 
     #rickLogo {

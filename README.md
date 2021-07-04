@@ -24,10 +24,11 @@ You will also see any lint errors in the console.
 
 ## Features 📝
 
-- [x] Header with Responsive Design 
-- [x] Put the cards in the container div
-- [ ] Add more info about the character
-- [ ] Character Filter
+- [x] Header with Responsive Design. 
+- [x] Put the cards in the container div.
+- [ ] Next pages (Pagination).
+- [ ] Add more info about the character.
+- [ ] Character Filter.
 
 ## Learn More 🤔
 

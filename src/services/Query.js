@@ -3,11 +3,11 @@ import { Query } from "react-apollo";
 import Cards from '../components/Cards/Cards'
 
 export const CharacterQuery = () => {
-    return (
-        <Query
-            query={gql`
+  return (
+    <Query
+      query={gql`
         {
-          characters {
+          characters(page: 1) {
             results {
               id
               name
@@ -16,22 +16,22 @@ export const CharacterQuery = () => {
           }
         }
       `}
-        >
-            {({ loading, error, data }) => {
-                if (loading) return <p>Loading...</p>;
-                if (error) return <p>Error!</p>;
+    >
+      {({ loading, error, data }) => {
+        if (loading) return <p>Loading...</p>;
+        if (error) return <p>Error! ❌</p>;
 
-                return data.characters.results.map((character) => {
-                    return (
-                        <Cards
-                            key={character.id}
-                            id={character.id}
-                            name={character.name}
-                            image={character.image}
-                        />
-                    );
-                });
-            }}
-        </Query>
-    );
+        return data.characters.results.map((character) => {
+          return (
+            <Cards
+              key={character.id}
+              id={character.id}
+              name={character.name}
+              image={character.image}
+            />
+          );
+        });
+      }}
+    </Query>
+  );
 };

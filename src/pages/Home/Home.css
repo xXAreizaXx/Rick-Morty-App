@@ -2,6 +2,17 @@
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 500px 1fr;
+    grid-template-rows: 100px 1fr 100px;
     justify-items: center;
+}
+@media (max-width: 990px) {
+    .container {
+        grid-template-rows: 200px 1fr 100px;;
+    }
+}
+
+@media (max-width: 430px) {
+    .container {
+        grid-template-rows: 500px 1fr 100px;;
+    }
 }
