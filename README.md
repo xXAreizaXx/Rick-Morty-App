@@ -6,7 +6,7 @@ This project is made with the **Rick & Morty** api.
 
 In the project directory, you can run:
 
-### `npm install 🧬`
+#### `npm install 🧬`
 This command allows you to install all the dependencies of the project
 
 #### `npm start` ✅
