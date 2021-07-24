@@ -2,12 +2,12 @@ import { gql } from "apollo-boost";
 import { Query } from "react-apollo";
 import Cards from '../components/Cards/Cards'
 
-export const CharacterQuery = () => {
+export const CharacterQuery = ({ page }) => {
   return (
     <Query
       query={gql`
         {
-          characters(page: 1) {
+          characters(page: ${page}) {
             results {
               id
               name

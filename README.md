@@ -16,17 +16,17 @@ You will also see any lint errors in the console.
 
 ## Preview 📰
 ### **[Commits]**
-##### _Header & Deploy_
-![Preview](https://user-images.githubusercontent.com/61436653/124366318-84c6a680-dc14-11eb-8aed-6c714c99fed8.jpg)
+##### _Header & Footer_
+![Header Footer](https://user-images.githubusercontent.com/61436653/126855565-7cca5dd1-c906-4b4a-ac20-0b132985ec41.jpg)
 
-##### _GQL & Cards_
-![Preview 2](https://user-images.githubusercontent.com/61436653/124369017-f6125380-dc2c-11eb-8558-f76d9c5da613.jpg)
+##### _Container Cards_
+![ContainerCards](https://user-images.githubusercontent.com/61436653/126855564-74258dc8-7ff7-4b0f-8dfd-9074718f8169.jpg)
 
 ## Features 📝
 
 - [x] Header with Responsive Design. 
 - [x] Put the cards in the container div.
-- [ ] Next pages (Pagination).
+- [x] Next pages (Pagination).
 - [ ] Add more info about the character.
 - [ ] Character Filter.
 
@@ -37,7 +37,7 @@ You can learn more in the web site [Rick & Morty](https://rickandmortyapi.com/).
 
 ## Deployment 🚀
 
-Is deployed in [Vercel](https://api-rick-and-morty-91f5qhgwm-xxareizaxx.vercel.app/)
+Is deployed in [Vercel](https://api-rick-and-morty.vercel.app/)
 
 
 

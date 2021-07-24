@@ -1,3 +1,9 @@
+.Cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .titleName {
     display: flex;
     justify-content: center;
