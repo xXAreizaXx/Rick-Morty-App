@@ -30,6 +30,7 @@ You will also see any lint errors in the console.
 - [x] Header with Responsive Design. 
 - [x] Put the cards in the container div.
 - [x] Next pages (Pagination).
+- [x] Sppiner.
 - [ ] Add more info about the character.
 - [ ] Character Filter.
 

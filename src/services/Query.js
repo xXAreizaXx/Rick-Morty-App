@@ -1,6 +1,7 @@
 import { gql } from "apollo-boost";
 import { Query } from "react-apollo";
 import Cards from '../components/Cards/Cards'
+import Spinner from "../components/Spinner/Spinner";
 
 export const CharacterQuery = ({ page }) => {
   return (
@@ -18,7 +19,7 @@ export const CharacterQuery = ({ page }) => {
       `}
     >
       {({ loading, error, data }) => {
-        if (loading) return <p>Loading...</p>;
+        if (loading) return <Spinner />;
         if (error) return <p>Error! ❌</p>;
 
         return data.characters.results.map((character) => {
